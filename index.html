@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Driven Eats</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>DrivenEats</h1>
+        <h3>Sua comida em 6 minutos</h3>
+      </div>
+    </header>
+
+    <main>
+      <h2>Primeiro, seu prato</h2>
+      <div  class="wrapped-pratos principais">
+        <div onclick="selecionar('#prato1')" id="prato1" class="box-foods" data-test="dish">
+          <img
+            class="icon-food"
+            src="https://cdn.quizly.co/wp-content/uploads/2018/12/18114512/Breakfast.jpg"
+            alt="prato filme mulan"
+          />
+          <h4 data-test="item-name" >porridge</h4>
+          <p>Chinese porridge made from rice.</p>
+          <p data-test="item-price"  class="price">R$ 15,50</p>
+        </div>
+
+        <div onclick="selecionar('#prato2')" id="prato2" class="box-foods" data-test="dish">
+          <img
+            class="icon-food"
+            src="https://cdn.quizly.co/wp-content/uploads/2018/12/18114544/Ratatouille.jpg"
+            alt="prato filme Ratatouille"
+          />
+          <h4 data-test="item-name" > Ratatouille</h4>
+          <p>French vegetable stew</p>
+          <p data-test="item-price"  class="price">R$ 40,00</p>
+        </div>
+
+        <div onclick="selecionar('#prato3')" id="prato3" class="box-foods" data-test="dish">
+          <img
+            class="icon-food"
+            src="http://40.media.tumblr.com/tumblr_lnhfybaLZg1qftvcwo1_500.jpg"
+            alt="prato do desenho bob esponja"
+          />
+          <h4 data-test="item-name" >Krabby Patty</h4>
+          <p>It is a meatless hamburger</p>
+          <p data-test="item-price"  class="price">R$ 7,00</p>
+        </div>
+
+        <div onclick="selecionar('#prato4')" id="prato4" class="box-foods" data-test="dish">
+          <img
+            class="icon-food"
+            src="https://cdn.quizly.co/wp-content/uploads/2018/12/18114533/Gumbo.jpg   "
+            alt="prato do filme princesa e o sapo"
+          />
+          <h4 data-test="item-name" >Tianas gumbo</h4>
+          <p>A mix of veggies, seafood an seafood.</p>
+          <p data-test="item-price"  class="price">R$ 25,00</p>
+        </div>
+
+        <div onclick="selecionar('#prato5')" id="prato5" class="box-foods" data-test="dish">
+          <img
+            class="icon-food"
+            src="https://pbs.twimg.com/media/FW-Zyu3XkAMmk0N.jpg"
+            alt="prato do desenho bob esponja"
+          />
+          <h4 data-test="item-name" >ramen from Ponyo</h4>
+          <p>Japanese noodle soup.</p>
+          <p data-test="item-price"  class="price">R$ 12,00</p>
+        </div>
+      </div>
+
+      <h2 class="drinks">Agora, sua bebida</h2>
+
+      <div class="wrapped-pratos bebidas ">
+        <div onclick="selecionarDrinks('#drink1')" id="drink1" class="box-foods" data-test="drink">
+          <img
+            class="icon-food"
+            src="http://en.spongepedia.org/images/3/3c/Drinkable_Sausage.jpg"
+            alt="sausicha"/>
+          <h4 data-test="item-name" >drinkable sausage</h4>
+          <p>It's supposedly liquid sausage</p>
+          <p data-test="item-price"  class="price">R$ 13,00</p>
+        </div>
+
+        <div onclick="selecionarDrinks('#drink2')" id="drink2" class="box-foods" data-test="drink">
+          <img
+            class="icon-food"
+            src="https://i.pinimg.com/originals/59/59/ed/5959edfb974de31a5f89e7b6a26ea560.jpg"
+            alt="cerveja do simpsons"
+          />
+          <h4 data-test="item-name" >Duff Bear</h4>
+          <p>Homer Simpson's beer of choice</p>
+          <p data-test="item-price"  class="price">R$ 5,00</p>
+        </div>
+
+        <div onclick="selecionarDrinks('#drink3')" id="drink3" class="box-foods" data-test="drink">
+          <img
+            class="icon-food"
+            src="./assets/S1e17_pitt_cola.webp"
+            alt="bebida famosa de gravity falls"
+          />
+          <h4 data-test="item-name" >Pitt Cola</h4>
+          <p>The most popular drink in Gravity Falls.</p>
+          <p data-test="item-price"  class="price">R$ 6,00</p>
+        </div>
+
+        <div onclick="selecionarDrinks('#drink4')" id="drink4" class="box-foods" data-test="drink">
+          <img
+            class="icon-food"
+            src="http://cdn.firstwefeast.com/assets/2014/10/alice.jpg"
+            alt="prato do filme princesa e o sapo"
+          />
+          <h4 data-test="item-name" >Drink Me - Alice</h4>
+          <p>Drink to shrink down to ten inches high.</p>
+          <p data-test="item-price"  class="price">R$ 30,00</p>
+        </div>
+
+        <div onclick="selecionarDrinks('#drink5')" id="drink5" class="box-foods" data-test="drink">
+          <img
+            class="icon-food"
+            src="http://cdn.firstwefeast.com/assets/2014/10/butterbeer.jpg"
+            alt="prato do desenho bob esponja"
+          />
+          <h4 data-test="item-name" >Butterbeer</h4>
+          <p>A foamy sweet and creamy drink.</p>
+          <p data-test="item-price"  class="price">R$ 15,00</p>
+        </div>
+      </div>
+
+      <h2 class="desert">Por fim, sua sobremesa</h2>
+
+      <div class="wrapped-pratos sobremesas">
+        <div onclick="selecionarDesserts('#dessert1')" id="dessert1" class="box-foods" data-test="dessert">
+          <img
+            class="icon-food"
+            src="https://cdn.quizly.co/wp-content/uploads/2018/12/18114530/Grumpy-Pie.jpg"
+            alt="prato filme Branca de Neve"
+          />
+          <h4 data-test="item-name" >Gooseberry pie</h4>
+          <p>Famous Snow White pie.</p>
+          <p data-test="item-price"  class="price">R$ 20,00</p>
+        </div>
+
+        <div onclick="selecionarDesserts('#dessert2')" id="dessert2" class="box-foods" data-test="dessert">
+          <img
+            class="icon-food"
+            src="https://cdn.quizly.co/wp-content/uploads/2018/12/18114538/Magical-Cookies.jpg"
+            alt="prato filme alice no pais das maravilhas"
+          />
+          <h4 data-test="item-name" >Eat me cookies </h4>
+          <p> cookies made by Alice </p>
+          <p data-test="item-price"  class="price">R$ 2,00</p>
+        </div>
+
+        <div onclick="selecionarDesserts('#dessert3')" id="dessert3" class="box-foods" data-test="dessert">
+          <img
+            class="icon-food"
+            src="https://i0.wp.com/mainstreetbelle.com/wp-content/uploads/2020/01/princess-and-the-frog-disneyscreencaps.com-806.jpg?resize=501%2C280&ssl=1"
+            alt="prato do filme princesa e o sapo"
+          />
+          <h4 data-test="item-name" >Beignets</h4>
+          <p>Tiana's glorious beignets</p>
+          <p data-test="item-price"  class="price">R$ 10,00</p>
+        </div>
+
+        <div onclick="selecionarDesserts('#dessert4')" id="dessert4" class="box-foods" data-test="dessert">
+          <img
+            class="icon-food"
+            src="https://cdn.quizly.co/wp-content/uploads/2018/12/18120354/Yellow-Snow-Cones1.jpg"
+            alt="sorvete de monSstros sa"
+          />
+          <h4 data-test="item-name" >Snow Cones</h4>
+          <p>yellow snow cones from Monster inc</p>
+          <p data-test="item-price"  class="price">R$ 3,00</p>
+        </div>
+
+        <div onclick="selecionarDesserts('#dessert5')" id="dessert5" class="box-foods" data-test="dessert">
+          <img
+            class="icon-food"
+            src="https://media.istockphoto.com/id/1251213534/pt/vetorial/man-holding-half-eaten-cartoon-donut-with-pink-glaze-against-blue-sky-wish-clouds-close-up.jpg?s=170x170&k=20&c=S4D9FHoodZDIcLqdtlx6oVc3APWZdwkBgPKA697G6CU="
+            alt="sobremesa preferida do homer simpsons"
+          />
+          <h4 data-test="item-name" >Donut</h4>
+          <p>Homer Simpson's favorite food</p>
+          <p data-test="item-price"  class="price">R$ 5,00</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <input data-test="order-btn" class="btn" type="button" value="Selecione os 3 itens
+      para fechar o pedido" />
+
+      <input data-test="order-btn" class="btn btn-verde disabled" type="button" value="Selecione os 3 itens
+      para fechar o pedido" />
+
+
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
