@@ -107,7 +107,7 @@ h4 {
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
-  color: #333333; 
+  color: #333333;
 }
 
 p {
@@ -190,7 +190,22 @@ footer {
   background: green;
 }
 
-
 .green {
-  border: solid green 3px ;
+  border: solid green 3px;
 }
+
+.icon {  
+  font-size: 15px;
+ color: #32b72f;
+}
+
+.escondido {
+  display: none;
+}
+
+.boxPriceIcon {
+  display: flex;
+  flex-direction: row;
+}
+
+
