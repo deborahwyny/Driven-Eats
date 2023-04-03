@@ -62,9 +62,9 @@ function verificarBtn () {
 const selecionados = document.querySelectorAll('.green');
 if (selecionados.length === 3) {
   const btn = document.querySelector('.btn');
-  btn.classList.add('disabled');
+  btn.setAttribute('disabled', '');
   const btnVerde = document.querySelector('.btn-verde');
-  btnVerde.classList.remove('disabled');
+  btnVerde.removeAttribute('disabled');
 }
 
 

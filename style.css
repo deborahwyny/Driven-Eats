@@ -186,6 +186,10 @@ footer {
   display: none;
 }
 
+input:disabled {
+  display: none;
+}
+
 .btn-verde {
   background: green;
   color: #ffffff;
