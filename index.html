@@ -42,7 +42,7 @@
       <h2>Primeiro, seu prato</h2>
       <div class="wrapped-pratos principais">
         <div
-        class="box-foods"
+          class="box-foods"
           onclick="selecionar('#prato1')"
           id="prato1"
           data-test="dish"
@@ -52,12 +52,16 @@
             src="https://cdn.quizly.co/wp-content/uploads/2018/12/18114512/Breakfast.jpg"
             alt="prato filme mulan"
           />
-          <h4 data-test="item-name">porridge</h4>
+          <h4 class="nome" data-test="item-name">porridge</h4>
           <p>Chinese porridge made from rice.</p>
           <div class="boxPriceIcon">
-          <p data-test="item-price" class="price">R$ 15,50</p>
-          <ion-icon id="icon" class="icon escondido" name="checkmark-circle"></ion-icon>
-        </div>
+            <p data-test="item-price"class="price" >R$<span class="priceValue">15.50</span></p>
+            <ion-icon
+              id="icon"
+              class="icon escondido"
+              name="checkmark-circle"
+            ></ion-icon>
+          </div>
         </div>
 
         <div
@@ -71,12 +75,16 @@
             src="https://cdn.quizly.co/wp-content/uploads/2018/12/18114544/Ratatouille.jpg"
             alt="prato filme Ratatouille"
           />
-          <h4 data-test="item-name">Ratatouille</h4>
+          <h4 class="nome" data-test="item-name">Ratatouille</h4>
           <p>French vegetable stew</p>
           <div class="boxPriceIcon">
-          <p data-test="item-price" class="price">R$ 40,00</p>
-          <ion-icon id="icon" class="icon escondido" name="checkmark-circle"></ion-icon>
-        </div>
+            <p data-test="item-price" class="price">R$ <span class="priceValue"> 40.00</span> </p>
+            <ion-icon
+              id="icon"
+              class="icon escondido"
+              name="checkmark-circle"
+            ></ion-icon>
+          </div>
         </div>
 
         <div
@@ -90,12 +98,16 @@
             src="http://40.media.tumblr.com/tumblr_lnhfybaLZg1qftvcwo1_500.jpg"
             alt="prato do desenho bob esponja"
           />
-          <h4 data-test="item-name">Krabby Patty</h4>
+          <h4 class="nome" data-test="item-name">Krabby Patty</h4>
           <p>It is a meatless hamburger</p>
           <div class="boxPriceIcon">
-          <p data-test="item-price" class="price">R$ 7,00</p>
-          <ion-icon id="icon" class="icon escondido" name="checkmark-circle"></ion-icon>
-        </div>
+            <p data-test="item-price" class="price">R$<span class="priceValue"> 7.00</span></p>
+            <ion-icon
+              id="icon"
+              class="icon escondido"
+              name="checkmark-circle"
+            ></ion-icon>
+          </div>
         </div>
 
         <div
@@ -109,11 +121,15 @@
             src="https://cdn.quizly.co/wp-content/uploads/2018/12/18114533/Gumbo.jpg   "
             alt="prato do filme princesa e o sapo"
           />
-          <h4 data-test="item-name">Tianas gumbo</h4>
+          <h4 class="nome" data-test="item-name">Tianas gumbo</h4>
           <p>A mix of veggies, seafood an seafood.</p>
           <div class="boxPriceIcon">
-          <p data-test="item-price" class="price">R$ 25,00</p>
-          <ion-icon id="icon" class="icon escondido" name="checkmark-circle"></ion-icon>
+            <p data-test="item-price" class="price"> R$<span class="priceValue"> 25.00</span></p>
+            <ion-icon
+              id="icon"
+              class="icon escondido"
+              name="checkmark-circle"
+            ></ion-icon>
           </div>
         </div>
 
@@ -128,13 +144,16 @@
             src="https://pbs.twimg.com/media/FW-Zyu3XkAMmk0N.jpg"
             alt="prato do desenho bob esponja"
           />
-          <h4 data-test="item-name">ramen from Ponyo</h4>
+          <h4 class="nome" data-test="item-name">ramen from Ponyo</h4>
           <p>Japanese noodle soup.</p>
           <div class="boxPriceIcon">
-          <p data-test="item-price" class="price">R$ 12,00</p>
-          <ion-icon id="icon" class="icon escondido" name="checkmark-circle"></ion-icon>
-        </div>
-
+            <p data-test="item-price" class="price">R$ <span class="priceValue"> 12.00</span></p>
+            <ion-icon
+              id="icon"
+              class="icon escondido"
+              name="checkmark-circle"
+            ></ion-icon>
+          </div>
         </div>
       </div>
 
@@ -152,12 +171,16 @@
             src="http://en.spongepedia.org/images/3/3c/Drinkable_Sausage.jpg"
             alt="sausicha"
           />
-          <h4 data-test="item-name">drinkable sausage</h4>
+          <h4 class="nome" data-test="item-name">drinkable sausage</h4>
           <p>It's supposedly liquid sausage</p>
           <div class="boxPriceIcon">
-          <p data-test="item-price" class="price">R$ 13,00</p>
-          <ion-icon id="icon" class="icon escondido" name="checkmark-circle"></ion-icon>
-        </div>
+            <p data-test="item-price" class="price">R$ <span class="priceValue"> 13.00</span></p>
+            <ion-icon
+              id="icon"
+              class="icon escondido"
+              name="checkmark-circle"
+            ></ion-icon>
+          </div>
         </div>
 
         <div
@@ -171,12 +194,16 @@
             src="https://i.pinimg.com/originals/59/59/ed/5959edfb974de31a5f89e7b6a26ea560.jpg"
             alt="cerveja do simpsons"
           />
-          <h4 data-test="item-name">Duff Bear</h4>
+          <h4 class="nome" data-test="item-name">Duff Bear</h4>
           <p>Homer Simpson's beer of choice</p>
           <div class="boxPriceIcon">
-          <p data-test="item-price" class="price">R$ 5,00</p>
-          <ion-icon id="icon" class="icon escondido" name="checkmark-circle"></ion-icon>
-        </div>
+            <p data-test="item-price" class="price">R$  <span class="priceValue">5.00</span></p>
+            <ion-icon
+              id="icon"
+              class="icon escondido"
+              name="checkmark-circle"
+            ></ion-icon>
+          </div>
         </div>
 
         <div
@@ -190,12 +217,16 @@
             src="./assets/S1e17_pitt_cola.webp"
             alt="bebida famosa de gravity falls"
           />
-          <h4 data-test="item-name">Pitt Cola</h4>
+          <h4 class="nome" data-test="item-name">Pitt Cola</h4>
           <p>The most popular drink in Gravity Falls.</p>
           <div class="boxPriceIcon">
-          <p data-test="item-price" class="price">R$ 6,00</p>
-          <ion-icon id="icon" class="icon escondido" name="checkmark-circle"></ion-icon>
-        </div>
+            <p data-test="item-price" class="price"> R$ <span class="priceValue">6.00</span></p>
+            <ion-icon
+              id="icon"
+              class="icon escondido"
+              name="checkmark-circle"
+            ></ion-icon>
+          </div>
         </div>
 
         <div
@@ -209,12 +240,16 @@
             src="http://cdn.firstwefeast.com/assets/2014/10/alice.jpg"
             alt="prato do filme princesa e o sapo"
           />
-          <h4 data-test="item-name">Drink Me - Alice</h4>
+          <h4 class="nome" data-test="item-name">Drink Me - Alice</h4>
           <p>Drink to shrink down to ten inches high.</p>
           <div class="boxPriceIcon">
-          <p data-test="item-price" class="price">R$ 30,00</p>
-          <ion-icon id="icon" class="icon escondido" name="checkmark-circle"></ion-icon>
-        </div>
+            <p data-test="item-price" class="price">R$ <span class="priceValue">30.00</span></p>
+            <ion-icon
+              id="icon"
+              class="icon escondido"
+              name="checkmark-circle"
+            ></ion-icon>
+          </div>
         </div>
 
         <div
@@ -228,12 +263,16 @@
             src="http://cdn.firstwefeast.com/assets/2014/10/butterbeer.jpg"
             alt="prato do desenho bob esponja"
           />
-          <h4 data-test="item-name">Butterbeer</h4>
+          <h4 class="nome" data-test="item-name">Butterbeer</h4>
           <p>A foamy sweet and creamy drink.</p>
           <div class="boxPriceIcon">
-          <p data-test="item-price" class="price">R$ 15,00</p>
-          <ion-icon id="icon" class="icon escondido" name="checkmark-circle"></ion-icon>
-        </div>
+            <p data-test="item-price" class="price">R$ <span class="priceValue">15.00</span></p>
+            <ion-icon
+              id="icon"
+              class="icon escondido"
+              name="checkmark-circle"
+            ></ion-icon>
+          </div>
         </div>
       </div>
 
@@ -251,12 +290,16 @@
             src="https://cdn.quizly.co/wp-content/uploads/2018/12/18114530/Grumpy-Pie.jpg"
             alt="prato filme Branca de Neve"
           />
-          <h4 data-test="item-name">Gooseberry pie</h4>
+          <h4 class="nome" data-test="item-name">Gooseberry pie</h4>
           <p>Famous Snow White pie.</p>
           <div class="boxPriceIcon">
-          <p data-test="item-price" class="price">R$ 20,00</p>
-          <ion-icon id="icon" class="icon escondido" name="checkmark-circle"></ion-icon>
-        </div>
+            <p data-test="item-price" class="price">R$ <span class="priceValue">20.00</span></p>
+            <ion-icon
+              id="icon"
+              class="icon escondido"
+              name="checkmark-circle"
+            ></ion-icon>
+          </div>
         </div>
 
         <div
@@ -270,12 +313,16 @@
             src="https://cdn.quizly.co/wp-content/uploads/2018/12/18114538/Magical-Cookies.jpg"
             alt="prato filme alice no pais das maravilhas"
           />
-          <h4 data-test="item-name">Eat me cookies</h4>
+          <h4 class="nome" data-test="item-name">Eat me cookies</h4>
           <p>cookies made by Alice</p>
           <div class="boxPriceIcon">
-          <p data-test="item-price" class="price">R$ 2,00</p>
-          <ion-icon id="icon" class="icon escondido" name="checkmark-circle"></ion-icon>
-        </div>
+            <p data-test="item-price" class="price">R$<span class="priceValue">2.00</span></p>
+            <ion-icon
+              id="icon"
+              class="icon escondido"
+              name="checkmark-circle"
+            ></ion-icon>
+          </div>
         </div>
 
         <div
@@ -289,12 +336,16 @@
             src="https://i0.wp.com/mainstreetbelle.com/wp-content/uploads/2020/01/princess-and-the-frog-disneyscreencaps.com-806.jpg?resize=501%2C280&ssl=1"
             alt="prato do filme princesa e o sapo"
           />
-          <h4 data-test="item-name">Beignets</h4>
+          <h4 class="nome" data-test="item-name">Beignets</h4>
           <p>Tiana's glorious beignets</p>
           <div class="boxPriceIcon">
-          <p data-test="item-price" class="price">R$ 10,00</p>
-          <ion-icon id="icon" class="icon escondido" name="checkmark-circle"></ion-icon>
-        </div>
+            <p data-test="item-price" class="price">R$ <span class="priceValue">10.00</span></p>
+            <ion-icon
+              id="icon"
+              class="icon escondido"
+              name="checkmark-circle"
+            ></ion-icon>
+          </div>
         </div>
 
         <div
@@ -308,12 +359,16 @@
             src="https://cdn.quizly.co/wp-content/uploads/2018/12/18120354/Yellow-Snow-Cones1.jpg"
             alt="sorvete de monSstros sa"
           />
-          <h4 data-test="item-name">Snow Cones</h4>
+          <h4 class="nome" data-test="item-name">Snow Cones</h4>
           <p>yellow snow cones from Monster inc</p>
           <div class="boxPriceIcon">
-          <p data-test="item-price" class="price">R$ 3,00</p>
-          <ion-icon id="icon" class="icon escondido" name="checkmark-circle"></ion-icon>
-        </div>
+            <p data-test="item-price" class="price">R$<span class="priceValue">3.00</span></p>
+            <ion-icon
+              id="icon"
+              class="icon escondido"
+              name="checkmark-circle"
+            ></ion-icon>
+          </div>
         </div>
 
         <div
@@ -327,19 +382,22 @@
             src="https://media.istockphoto.com/id/1251213534/pt/vetorial/man-holding-half-eaten-cartoon-donut-with-pink-glaze-against-blue-sky-wish-clouds-close-up.jpg?s=170x170&k=20&c=S4D9FHoodZDIcLqdtlx6oVc3APWZdwkBgPKA697G6CU="
             alt="sobremesa preferida do homer simpsons"
           />
-          <h4 data-test="item-name">Donut</h4>
+          <h4 class="nome" data-test="item-name">Donut</h4>
           <p>Homer Simpson's favorite food</p>
           <div class="boxPriceIcon">
-          <p data-test="item-price" class="price">R$ 5,00</p>
-          <ion-icon id="icon" class="icon escondido" name="checkmark-circle"></ion-icon>
-        </div>
+            <p data-test="item-price" class="price">R$<span class="priceValue">5.00</span></p>
+            <ion-icon
+              id="icon"
+              class="icon escondido"
+              name="checkmark-circle"
+            ></ion-icon>
+          </div>
         </div>
       </div>
     </main>
 
     <footer>
       <input
-        onclick="verificarBtn ()"
         data-test="order-btn"
         class="btn"
         type="button"
@@ -348,12 +406,11 @@
       />
 
       <input
-        onclick="verificarBtn ()"
+        onclick="fecharPedido()"
         data-test="order-btn"
-        class="btn btn-verde disabled"
+        class="btn-verde disabled"
         type="button"
-        value="Selecione os 3 itens
-      para fechar o pedido"
+        value="Fechar pedido"
       />
     </footer>
 

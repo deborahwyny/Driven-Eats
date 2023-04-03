@@ -188,15 +188,25 @@ footer {
 
 .btn-verde {
   background: green;
+  color: #ffffff;
+  width: 364px;
+  height: 61px;
+  border-radius: 50px;
+  left: 25px;
+  bottom: 16px;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.018em;
 }
 
 .green {
   border: solid green 3px;
 }
 
-.icon {  
+.icon {
   font-size: 15px;
- color: #32b72f;
+  color: #32b72f;
 }
 
 .escondido {
@@ -207,5 +217,3 @@ footer {
   display: flex;
   flex-direction: row;
 }
-
-
