@@ -81,7 +81,7 @@ let price3 = document.querySelector('.sobremesas .green .priceValue');
 
 let valorFinal = parseFloat(price.innerHTML) + parseFloat(price2.innerHTML) + parseFloat(price3.innerHTML);
 
-let textoTop = `Olá, gostaria de fazer o pedido:\n - Prato: ${prato}\n - Bebida: ${bebida}\n - Sobremesa: ${sobremesas}\nTotal: ${valorFinal.toFixed(2)}`
+let textoTop = `Olá, gostaria de fazer o pedido:\n - Prato: ${prato}\n - Bebida: ${bebida}\n - Sobremesa: ${sobremesas}\nTotal: R$ ${valorFinal.toFixed(2)}`
 
 let textoEncodade = encodeURIComponent(textoTop)
   window.location.assign('https://wa.me/5524999037329?text='+ textoEncodade) 
