@@ -186,7 +186,7 @@ footer {
   display: none;
 }
 
-input:disabled {
+button:disabled {
   display: none;
 }
 
